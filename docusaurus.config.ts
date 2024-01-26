@@ -44,6 +44,15 @@ const config: Config = {
     ],
 
     themeConfig: {
+        headTags: [
+            {
+                tagName: 'meta',
+                attributes: {
+                    name: 'google-site-verification',
+                    content: 'wnL-Ga1WS2t9sTGXA6e9lyN9ptTHMchqUV3OkAdpwzs',
+                },
+            },
+        ],
         docs: {
             sidebar: {
                 hideable: true,
